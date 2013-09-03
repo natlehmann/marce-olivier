@@ -1,27 +1,11 @@
-/*	Expanding Menus for Indexhibit
- *		uses jquery
- *
- *	Created by Ross Cairns  Mar 2008
-*/
-
-
-function expandingMenu(num) {
-	var speed = 200;
+function mostrarSubItems(elemento) {
 	
-	var item_title = $("#menu ul").eq(num).children(":first");
-	var items = $("#menu ul").eq(num).children().filter(function (index) { return index > 0; });
+	var subitems = $("ul", $(elemento).parent() );
 	
-	/* hide items if not active */
-	if (items.is(".active") == false) {
-		items.hide();
+	if (subitems.is(":visible")) {
+		subitems.hide(200);
+		
+	} else {
+		subitems.show(200);
 	}
-
-	/* add click functions + pointer to title */
-	item_title.css({cursor:"pointer"}).toggle(
-		function () {
-			items.show(speed);
-		}, function () {
-			items.hide(speed);
-		}
-	)
 }
