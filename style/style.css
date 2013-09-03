@@ -1,0 +1,139 @@
+@charset "utf-8";
+@CHARSET "ISO-8859-1";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 12px;
+	font-family: Myriad pro;
+	background: #FFFFFF;
+		overflow-x:hidden;
+	overflow-y:hidden;
+		-webkit-overflow-scrolling: touch;
+}
+
+body.section-1 { }
+body.section-2 { }
+body.section-3 { }
+
+a:link { text-decoration: none ; color:#FF6699 }
+a:active { text-decoration: none; color:#4C00E6 }
+a:visited { text-decoration: none; color:#FF0000 }
+a:hover { text-decoration: none; color:#FF0000 }
+
+a img { border: none; }
+
+#menu {
+    width: 220px;
+    overflow: auto;
+    top: 100px;
+    bottom: auto;
+	left: 30px;
+    position: fixed;
+	background-color: #FFFFFF;
+    z-index: 10;
+}
+
+#menu ul {
+	list-style: none;
+	margin: 0 0 10px 0;
+}
+
+#menu ul li.section-title { }
+
+#content {
+    height: 100%;
+    margin: 0 0 0 280px;
+    top: 0;
+}
+
+.container1 {
+    padding: 25px 25px 25px 25px;
+}
+
+#content p { width: 400px; margin-bottom: 9px; }
+
+p {
+    margin: 0 0 9px 0;
+}
+
+h1 { font-size: 32px; }
+h2 { font-size: 24px; }
+h3 { font-size: 16px; }
+h4 { font-size: 12px; }
+
+#img-container1	{ margin: 0; padding: 0; }
+#img-container1 p	{ width: 400px; margin: 0; padding: 0 0 12px 0; }
+
+#once { clear: left; }
+
+#contenedor{
+	width:100%;
+	z-index:10;
+	position:absolute;
+}
+
+#contenido{
+    background: none repeat scroll 0 0 #FFFFFF;
+    height: 750px;
+    margin-left: 300px;
+    position: fixed;
+    top: 100px;
+    width: 100%;
+    z-index: 10;
+}
+
+ 
+/*--------------------------------------fondo completo--------------------------------------*/
+.bx-container{
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	z-index:0;
+}
+
+.bx-container img{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	z-index: 101;
+	display:none;
+}
+
+.bx-canvas{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+}
+/*--------------------------------------galeria--------------------------------------*/
+
+.scroll {
+    height: 700px;
+    margin-bottom: 0;
+    margin-top: 30px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+	margin-left:30px;
+}
+
+.galeria{
+    float: left;
+    overflow: auto;
+    position: relative;
+    width: 6000px;
+}
+
+
+.galeria img{
+	margin-right:30px;
+	float:left;
+}
+
+
