@@ -1,4 +1,7 @@
-<?php include("includes/header.php"); ?>
+<?php 
+	$pagina = "home";
+	include("includes/header.php"); 
+?>
 
 <div id="contenido">
 	<div class="scroll">

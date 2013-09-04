@@ -1,4 +1,7 @@
-<?php include("includes/header.php"); ?>
+<?php 
+	$pagina = "visuel";
+	include("includes/header.php"); 
+?>
 
 <div id="contenido">
 

@@ -9,6 +9,18 @@
         <script type="text/javascript" src="js/modernizr.custom.21750.js"></script>
     </head>
     
+    <script type="text/javascript">
+	    $(function() {
+
+		    var pagina = '<?php echo $pagina ?>';
+		    $("#menu .seleccionado").removeClass("seleccionado");
+
+		    var itemSeleccionado = $("#menu ." + pagina);
+		    itemSeleccionado.parent().parent().show(200);
+		    itemSeleccionado.addClass("seleccionado");
+	    });
+	</script>
+    
     <body>
       <div class="container">    
              <div id="contenedor">
@@ -27,16 +39,16 @@
 							</li>
 							<ul style="display:none;">
                             	<li>
-                            		<a href="logo.php">-Logo</a>
+                            		<a href="logo.php" class="logo">-Logo</a>
                             	</li>
                             	<li>
-                            		<a href="visuel.php">-Visuel</a>
+                            		<a href="visuel.php" class="visuel">-Visuel</a>
                             	</li>
                             	<li>
-                            		<a href="illustration.php">-Illustration</a>
+                            		<a href="illustration.php" class="illustration">-Illustration</a>
                             	</li>
                             	<li>
-                            		<a href="peinture.php">-Peinture</a>
+                            		<a href="peinture.php" class="peinture">-Peinture</a>
                             	</li>
                             </ul>
 						</ul>
@@ -47,10 +59,10 @@
 							</li>
 							<ul style="display:none;">
                             	<li>
-                            		<a href="teeshirt.php">-Tee-shirt</a>
+                            		<a href="teeshirt.php" class="teeshirt">-Tee-shirt</a>
                             	</li>
                             	<li>
-                            		<a href="poster.php">-Poster</a>
+                            		<a href="poster.php" class="poster">-Poster</a>
                             	</li>
                             </ul>
 						</ul>
@@ -61,7 +73,7 @@
 							</li>
 							<ul style="display:none;">
                             	<li>
-                            		<a href="blog.php">-Blog</a>
+                            		<a href="blog.php" class="blog">-Blog</a>
                             	</li>
                             </ul>
 						</ul>
@@ -72,13 +84,13 @@
 							</li>
 							<ul style="display:none;">
                             	<li>
-                            		<a href="atelier.php">-L'atelier</a>
+                            		<a href="atelier.php" class="atelier">-L'atelier</a>
                             	</li>
                             	<li>
-                            		<a href="contact.php">-Contact</a>
+                            		<a href="contact.php" class="contact">-Contact</a>
                             	</li>
                             	<li>
-                            		<a href="amis.php">-Amis</a>
+                            		<a href="amis.php" class="amis">-Amis</a>
                             	</li>
                             </ul>
 						</ul>

@@ -1,5 +1,5 @@
 <?php 
-	$pagina = "logo";
+	$pagina = "teeshirt";
 	include("includes/header.php"); 
 ?>
 
@@ -8,6 +8,6 @@
 </div> 
                             
 <?php 
-	$imagenFondo = "images/05.jpg";
+	$imagenFondo = "images/04.jpg";
 	include("includes/footer.php"); 
 ?>

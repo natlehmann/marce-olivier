@@ -1,5 +1,5 @@
 <?php 
-	$pagina = "logo";
+	$pagina = "poster";
 	include("includes/header.php"); 
 ?>
 
