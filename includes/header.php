@@ -39,10 +39,10 @@
 							</li>
 							<ul style="display:none;">
                             	<li>
-                            		<a href="logo.php" class="logo">-Logo</a>
-                            	</li>
-                            	<li>
                             		<a href="visuel.php" class="visuel">-Visuel</a>
+                            	</li>
+                                <li>
+                            		<a href="logo.php" class="logo">-Logo</a>
                             	</li>
                             	<li>
                             		<a href="illustration.php" class="illustration">-Illustration</a>

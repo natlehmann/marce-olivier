@@ -1,5 +1,5 @@
 <?php 
-	$pagina = "home";
+	$pagina = "illustration";
 	include("includes/header.php"); 
 ?>
 
@@ -13,11 +13,6 @@
 </div> 
                             
 <?php 
-	$imagenes[0]='images/aleatorias/1.jpg'; 
-    $imagenes[1]='images/aleatorias/2.jpg';
-	
-	$i=rand(0,1);
-	print '<img src="'.$imagenes[$i].'">';
-	
+	$imagenFondo = "images/33_arcade-mode.jpg";
 	include("includes/footer.php"); 
 ?>
