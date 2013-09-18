@@ -32,7 +32,7 @@ a img { border: none; }
 	background-color: #FFFFFF;
     z-index: 10;
     float: left;
-    min-height: 430px;
+    padding-bottom: 60px;
 }
 
 #menu ul {

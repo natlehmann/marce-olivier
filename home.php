@@ -17,7 +17,7 @@
     $imagenes[1]='images/aleatorias/2.jpg';
 	
 	$i=rand(0,1);
-	print '<img src="'.$imagenes[$i].'">';
 	
+	$imagenFondo = $imagenes[$i];
 	include("includes/footer.php"); 
 ?>
