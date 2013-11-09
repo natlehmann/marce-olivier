@@ -1,7 +1,19 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es-es">
     <head>
-        <link rel="stylesheet" type="text/css" href="style/style.css" />
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       
+       <!–[if lt IE 9]>
+			<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	   <![endif]–>
+	   
+
+		<link rel="stylesheet" type="text/css" href="style/style.css" />
+		<link rel="stylesheet" 
+			media="all and (min-width : 768px) and (max-width : 1024px)" href="style/ipad.css">
+
+
+
         <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
         <script type="text/javascript" src="js/StackBlur.js"></script>
         <script type="text/javascript" src="js/inicializar.js"></script>
@@ -59,7 +71,7 @@
 							</li>
 							<ul style="display:none;">
                             	<li>
-                            		<a href="teeshirt.php" class="teeshirt">-Tee-shirt</a>
+                            		<a href="textil.php" class="textil">-Textil</a>
                             	</li>
                             	<li>
                             		<a href="poster.php" class="poster">-Poster</a>
@@ -68,14 +80,9 @@
 						</ul>
 						
 						<ul>
-							<li style="cursor: pointer;" class="section-title" onclick="mostrarSubItems(this)">
-								PHOTO
-							</li>
-							<ul style="display:none;">
-                            	<li>
-                            		<a href="blog.php" class="blog">-Blog</a>
-                            	</li>
-                            </ul>
+   							<li style="cursor: pointer;" class="section-title">
+         								<a href="http://ajimolido.tumblr.com/" target="_blank" class="photo">PHOTO</a>
+   							</li>
 						</ul>
 						
 						<ul>
